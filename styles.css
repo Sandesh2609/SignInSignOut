@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(#FFCFB3,#B7E0FF);
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    height: 80vh;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-section {
+    position: relative;
+    width: 50%;
+    background: #3b3054;
+    color: white;
+    padding: 50px;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.left-section h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 2.5em;
+    margin-top: 20%;
+}
+
+.right-section {
+    width: 50%;
+    background-color: #26263a;
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+h2 {
+
+    color: white;
+   margin: auto;
+    margin-left: 120px;
+    font-size: 35px;
+}
+
+p{
+    font-size: 10px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #494a6a;
+    background-color: #2f3049;
+    color: white;
+}
+
+form input::placeholder {
+    color: #a2a2c3;
+}
+
+.create-account-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #7159e6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.create-account-btn:hover {
+    background-color: #5b46b2;
+}
+
+#link1{
+    color: blue;
+}
+
+label{
+    display: flex;
+}
+ label input{
+    margin-left: -200px;
+ }
+
+ label p{
+    margin-top: 2px;
+    margin-left: -220px;
+    font-size: 15px;
+ }
+
+ #last_link{
+    margin-left: -200px;
+    color: blue;
+ }
+
+
+
